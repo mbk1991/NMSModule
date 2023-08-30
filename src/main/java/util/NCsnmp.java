@@ -52,6 +52,9 @@ import java.util.Vector;
  * leaf 노드인 경우 get으로 단일 정보를 조회한다.
  * 상위 노드인 경우 walk (getnext) 로 여러 정보를 조회한다.
  *
+ *
+ * GETNEXT는 하나의 변수를 다음 값으로 이동하면서 가져오는 반면, GETBULK은 여러 변수를 한 번에 여러 개 가져온다.
+ * 이들은 SNMP 프로토콜의 명령어 중 다양한 데이터 접근과 검색을 위해 사용되는 방식의 차이점을 나타낸다.
  */
 public class NCsnmp {
 
